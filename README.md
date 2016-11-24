@@ -11,7 +11,7 @@ Handler **MockRequestsInterceptor** does the interception for every requests tha
 ```csharp
 	// Web API configuration and services
     config.MessageHandlers.Add(new MockRequestsInterceptor());
-```csharp
+```
 
 ## Interception handler ##
 
@@ -21,7 +21,7 @@ Handler **MockRequestsInterceptor** does the interception for every requests tha
     var mockEndpointApiData = _db.MockApiHttpDatas.FirstOrDefault(x => x.ApiStatus == ApiStatus.Started
         && x.Verb.ToString() == incomingRequestData.RequestMethod.ToString()
         && x.Path == incomingRequestData.RequestUriPathAndQuery);
-```csharp
+```
 
 
 ## Create new api endpoint and consume ##
