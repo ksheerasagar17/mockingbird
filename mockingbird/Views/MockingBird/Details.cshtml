@@ -1,0 +1,98 @@
+﻿@model mockingbird.Models.MockApiHttpData
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Path)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Path)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Verb)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Verb)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Headers)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Headers)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ResponseStatus)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ResponseStatus)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ContentType)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ContentType)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ContentEncoding)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ContentEncoding)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ResponseBody)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ResponseBody)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ResponseDelay)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ResponseDelay)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ApiStatus)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ApiStatus)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
