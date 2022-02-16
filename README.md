@@ -1,6 +1,6 @@
 # Synopsis
 
-Mockingbird is a simple ASP.Net web application to help developer’s setup mock endpoints quickly for development and testing purposes. After deploying this ASP.Net website on a web server; developers can quickly create new RESTful api endpoints which spit out the same response as original endpoint. These are useful especially when downstream applications are down because of maintenance or in case of any other failures.
+Mockingbird is a simple ASP.Net web application that allows developers to quickly create mock endpoints for development and testing. Developers can quickly create new RESTful api endpoints that spit out the same response as the original endpoint after deploying this ASP.Net website on a web server. These are especially useful when downstream applications are unavailable due to maintenance or other failures.
 
 # Usage example
 
